@@ -1,4 +1,4 @@
--e /Users/siyuanhe/code/yoshi-tts
+git+https://github.com/SiyuanHe/yoshi-tts.git@main#egg=melotts
 aiofiles==23.1.0
 celery==5.2.7
 fastapi==0.95.0
