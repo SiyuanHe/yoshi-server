@@ -20,6 +20,7 @@ Trigger a new task:
 
 ```sh
 $ curl http://localhost:8004/tasks -H "Content-Type: application/json" --data '{"type": 0}'
+$ curl http://127.0.0.1:8004/tasks -H "Content-Type: application/json" --data '{"type": 0, "id":"1", "file_name":"example"}'
 ```
 
 Check the status:
